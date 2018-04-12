@@ -56,6 +56,10 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
+  gem 'factory_bot'
+  gem 'ffaker'
+  gem 'guard-rspec', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -82,3 +86,4 @@ gem 'better_errors', '~> 2.4'
 gem "binding_of_caller"
 gem 'guard', '~> 2.14', '>= 2.14.2'
 gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+gem 'annotate', '~> 2.7', '>= 2.7.1'
